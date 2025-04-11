@@ -27,7 +27,7 @@ def train_model():
         print(f"APY data columns: {apy_data.columns.tolist()}")
     except FileNotFoundError as e:
         print(f"❌ Error loading datasets: {e}")
-        return
+        return 
 
     # ======================================================================
     # DATA PREPROCESSING
